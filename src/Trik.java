@@ -6,7 +6,7 @@
 		 Scanner scan=new Scanner (System.in); 	
 		 do{ 		
 			 result=scan.nextLine(); 	
-			 if(result.length()>49)System.out.println("result number overlond !"); 
+			 if(result.length()>49)System.out.println("result number overlond!"); 
 		}while(result.length()>49); 	
 		 
 		 for(int i=0;i<result.length();i++){
